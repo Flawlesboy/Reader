@@ -7,14 +7,27 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        
+        let configuration = ParseClientConfiguration {
+            $0.isLocalDatastoreEnabled = true
+            $0.isLocalDatastoreEnabled = true
+            $0.applicationId = "myAppId"
+            $0.clientKey = "myMasterKey"
+            $0.server = "http://52.200.37.56:1337/parse"
+        }
+        Parse.initialize(with: configuration)
+        
+        UIApplication.shared.statusBarStyle = .lightContent
         // Override point for customization after application launch.
         return true
     }
