@@ -1,0 +1,47 @@
+PODS:
+  - AEXML (4.0.0)
+  - Bolts/Tasks (1.8.4)
+  - FolioReaderKit (1.2.0):
+    - AEXML (= 4.0)
+    - FontBlaster (= 3.0.0)
+    - JSQWebViewController (~> 5.0)
+    - MenuItemKit (= 2.0)
+    - RealmSwift (~> 2.7)
+    - SSZipArchive (~> 1.8)
+    - ZFDragableModalTransition (~> 0.6)
+  - FontBlaster (3.0.0)
+  - JSQWebViewController (5.0.0)
+  - MenuItemKit (2.0)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - Realm (2.10.1):
+    - Realm/Headers (= 2.10.1)
+  - Realm/Headers (2.10.1)
+  - RealmSwift (2.10.1):
+    - Realm (= 2.10.1)
+  - SSZipArchive (1.8.1)
+  - SWRevealViewController (2.3.0)
+  - ZFDragableModalTransition (0.6)
+
+DEPENDENCIES:
+  - FolioReaderKit
+  - Parse
+  - SWRevealViewController
+
+SPEC CHECKSUMS:
+  AEXML: 6fc6433aa35bdc15dd8eb8d54eb7aa4520a010eb
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FolioReaderKit: d902cb93f79e1d32f7d8bdb730fee6c1d05d1a6f
+  FontBlaster: 0f4a3e2f965968e2dfc3f7f5cec7214c3f3b2f07
+  JSQWebViewController: 0461aa42612b221571556df61d9c09f080cb2eef
+  MenuItemKit: 9af69953dc983803ee85230e205fadbac0f26213
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
+  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
+
+PODFILE CHECKSUM: 4e7715120d1445b211b10fd85cca62e67133fe2e
+
+COCOAPODS: 1.3.1
